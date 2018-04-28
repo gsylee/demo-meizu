@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>魅族商城</title>
+    <link rel="stylesheet" href="./css/reset.min.css">
+    <link rel="stylesheet" href="./css/index.min.css">    
+</head>
+<body >
+    <!-- 版心容器 -->
+    <div id="wrap">
+        <!-- top-ad -->
+        <div id="top-ad" class="top-ad">
+            <a href="#"><img src="./images/index/top-ad.jpg"  alt="广告"></a>
+            <!-- 关闭按钮 -->
+            <i  id="close-btn"></i>
+        </div>
+        <!-- header: -->
+        <div class="header" id="header" style="margin-top: 120px; position: relative;  " >
+            <!-- logo + nav + from -->
+            <div class="top clearfix" id='top'  >
+                <!-- logo -->
+                <a href="#" class="logo left">
+                    <img src="./images/index/logo.png" alt="logo" />
+                </a>
+                <!-- nav -->
+                <ul class="nav left">
+                    <li><a href="#">魅族商城</a></li>
+                    <li><a href="#">魅族手机</a></li>
+                    <li><a href="#">没蓝手机</a></li>
+                    <li><a href="#">魅族升学</a></li>
+                    <li><a href="#">智能配件</a></li>
+                    <li><a href="#">服务</a></li>
+                    <li><a href="#">专卖店</a></li>
+                    <li><a href="#">Flyme</a></li>
+                    <li><a href="#">社区</a></li>
+                </ul>
+                <!-- 输入框 -->
+                <form action="?" class="left form">
+                    <input type="text" value="魅蓝E3"  />
+                    <i id="search"></i>
+                </form>
+                <div class="user-choose left">
+                    <!-- 点击跳转到登录和注册页面 -->
+                    <a href="/view/login.html">
+                        <img src="./images/index/icon/user-choose.png" alt="用户相关" />
+                    </a>
+                </div>
+                <div class="shop-car right">
+                    <a href="#">
+                        <img src="./images/index/icon/shop-car.png" alt="购物车" />
+                    </a>
+                </div>
+            </div>
+            <!-- marquee + selectMenu -->
+            <div class="main" id='main'>
+                <!-- 轮播图 -->
+                <div class="marquee" id="marquee">
+                    <a href="#"   ><img src="./images/index/marquee/marquee1.jpg" alt="轮播图" /></a>
+                    <a href="#" style="display: none;"><img   src="./images/index/marquee/marquee2.jpg" alt="轮播图" /></a>
+                    <a href="#" style="display: none;"><img   src="./images/index/marquee/marquee3.jpg" alt="轮播图" /></a>
+                    <a href="#" style="display: none;"><img   src="./images/index/marquee/marquee4.jpg" alt="轮播图" /></a>
+                    <a href="#" style="display: none;"><img   src="./images/index/marquee/marquee5.jpg" alt="轮播图" /></a>
+                </div>
+                 <!-- 切换按钮 -->
+                <div class="mq-btn" id="mq-btn">
+                    <span order="0" class="high-color"></span>
+                    <span order="1"></span>
+                    <span order="2"></span>
+                    <span order="3"></span>
+                    <span order="4"></span>
+                </div>
+                <!-- 主菜单，暂时跳过 -->
+            </div>
+        </div>
+        <!-- content -->
+        <div id="content" class="content">
+            <div class="content-top clearfix" >
+                <ul class="left con-top-l">
+                    
+                </ul>
+                <ul class="right con-top-nav">
+                    <li><a href="#"><img src="./images/index/contop/con-top1.jpg" alt="图片" /></a></li>
+                    <li><a href="#"><img src="./images/index/contop/con-top2.jpg" alt="图片" /></a></li>
+                    <li><a href="#"><img src="./images/index/contop/con-top3.jpg" alt="图片" /></a></li>
+                    <li><a href="#"><img src="./images/index/contop/con-top4.jpg" alt="图片" /></a></li>
+                </ul>
+            </div>
+            <!-- 热品推荐 -->
+            <div class="hot-pro">
+                <div class="tit clearfix">
+                    <h2 class="left">热品推荐</h2>
+                    <div class="right">
+                        <i class="prev" id="prev" ></i>
+                        <i class="next" id="next"></i>
+                    </div>
+                </div>
+                <div class="con-wrap" id="con-wrap">
+                    <div class="con" id="con" style="position: absolute; left: 0;" >
+                        <ul >
+                            <li>
+                                <a href="#">
+                                    <img src="./images/index/hotpro/hot-pro1.png" alt="热品推荐" />
+                                    <h3>魅蓝 s6</h3>
+                                    <p>最新机型</p>
+                                    <span>&yen;999</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/index/hotpro/hot-pro2.jpg" alt="热品推荐" />
+                                    <h3>魅蓝 6</h3>
+                                    <p>热销机型</p>
+                                    <span>&yen;599</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/index/hotpro/hot-pro3.jpg" alt="热品推荐" />
+                                    <h3>魅蓝 Note6</h3>
+                                    <p>热销机型</p>
+                                    <span>&yen;899</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/index/hotpro/hot-pro4.png" alt="热品推荐" />
+                                    <h3>魅族 PRO 7</h3>
+                                    <p>热销机型</p>
+                                    <span>&yen;1999</span>
+                                </a>
+                            </li>
+                            <li style="border-right: none;">
+                                <a href="#">
+                                    <img src="./images/index/hotpro/hot-pro5.jpg" alt="热品推荐" />
+                                    <h3>魅蓝 E2</h3>
+                                    <p>热销机型</p>
+                                    <span>&yen;899</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/index/hotpro/hot-pro6.png" alt="热品推荐" />
+                                    <h3>魅族 LIVE四单元动铁耳机</h3>
+                                    <p>轻盈悦耳</p>
+                                    <span>&yen;1299</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/index/hotpro/hot-pro7.png" alt="热品推荐" />
+                                    <h3>魅族 LIVE四单元动铁耳机</h3>
+                                    <p>轻盈悦耳</p>
+                                    <span>&yen;1299</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/index/hotpro/hot-pro8.png" alt="热品推荐" />
+                                    <h3>魅族 LIVE四单元动铁耳机</h3>
+                                    <p>轻盈悦耳</p>
+                                    <span>&yen;1299</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/index/hotpro/hot-pro9.png" alt="热品推荐" />
+                                    <h3>魅族 LIVE四单元动铁耳机</h3>
+                                    <p>轻盈悦耳</p>
+                                    <span>&yen;1299</span>
+                                </a>
+                            </li>
+                            <li style="border-right: none;">
+                                <a href="#">
+                                    <img src="./images/index/hotpro/hot-pro10.png" alt="热品推荐" />
+                                    <h3>魅族 LIVE四单元动铁耳机</h3>
+                                    <p>轻盈悦耳</p>
+                                    <span>&yen;1299</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/index/hotpro/hot-pro1.png" alt="热品推荐" />
+                                    <h3>魅蓝 s6</h3>
+                                    <p>最新机型</p>
+                                    <span>&yen;999</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/index/hotpro/hot-pro2.jpg" alt="热品推荐" />
+                                    <h3>魅蓝 6</h3>
+                                    <p>热销机型</p>
+                                    <span>&yen;599</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/index/hotpro/hot-pro3.jpg" alt="热品推荐" />
+                                    <h3>魅蓝 Note6</h3>
+                                    <p>热销机型</p>
+                                    <span>&yen;899</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/index/hotpro/hot-pro4.png" alt="热品推荐" />
+                                    <h3>魅族 PRO 7</h3>
+                                    <p>热销机型</p>
+                                    <span>&yen;1999</span>
+                                </a>
+                            </li>
+                            <li style="border-right: none;">
+                                <a href="#">
+                                    <img src="./images/index/hotpro/hot-pro5.jpg" alt="热品推荐" />
+                                    <h3>魅蓝 E2</h3>
+                                    <p>热销机型</p>
+                                    <span>&yen;899</span>
+                                </a>
+                            </li>
+                        </ul>
+                     </div>
+                </div>
+            </div>
+            <!-- 广告 -->
+            <div class="content-ad">
+                <a href="#">
+                    <img src='images/index/content-ad.jpg'  data-src="" alt="广告" />
+                </a>
+            </div>
+            <!-- 手机 -->
+            <div id="phone-bar"  >
+                <div class="tit clearfix">
+                    <h2 class="left">手机</h2>
+                    <ul class="left">
+                        <li><a class='high' href="#">热销机型</a></li>
+                    </ul>
+                    <a href="#"  class="right">更多&gt;&gt;</a>
+                </div>
+                <ul class="con">
+                    <li >
+                        <a href="#">
+                            <img class='not' src="images/index/phonebar/phone1.jpg" data-src="" alt="手机区域">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/index/phonebar/phone2.png" data-src="" alt="手机区域">
+                            <h3>魅蓝E3</h3>
+                            <p>极速八核 全系6GB运存</p>
+                            <span>&yen;1799 起</span>
+                            <div class="new-pro">
+                                新品
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/index/phonebar/phone3.png" data-src="" alt="手机区域">
+                            <h3>魅蓝E3</h3>
+                            <p>极速八核 全系6GB运存</p>
+                            <span>&yen;1799 起</span>
+                            <div class="new-pro">
+                                新品
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/index/phonebar/phone4.png" data-src="" alt="手机区域">
+                            <h3>魅蓝E3</h3>
+                            <p>极速八核 全系6GB运存</p>
+                            <span>&yen;1799 起</span>
+                            <div class="free-pro">
+                                免息
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/index/phonebar/phone5.jpg" data-src="" alt="手机区域">
+                            <h3>魅蓝E3</h3>
+                            <p>极速八核 全系6GB运存</p>
+                            <span>&yen;1799 起</span>
+                            <div class="free-pro">
+                                直降
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/index/phonebar/phone6.png" data-src="" alt="手机区域">
+                            <h3>魅蓝E3</h3>
+                            <p>极速八核 全系6GB运存</p>
+                            <span>&yen;1799 起</span>
+                            <div class="cash-pro">
+                                现货
+                            </div>
+                        </a>
+
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/index/phonebar/phone7.png" data-src="" alt="手机区域">
+                            <h3>魅蓝E3</h3>
+                            <p>极速八核 全系6GB运存</p>
+                            <span>&yen;1799 起</span>
+                            <div class="free-pro">
+                                免息
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/index/phonebar/phone8.jpg" data-src="" alt="手机区域">
+                            <h3>魅蓝E3</h3>
+                            <p>极速八核 全系6GB运存</p>
+                            <span>&yen;1799 起</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/index/phonebar/phone9.png" data-src='' alt="手机区域">
+                            <h3>魅蓝E3</h3>
+                            <p>极速八核 全系6GB运存</p>
+                            <span>&yen;1799 起</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/index/phonebar/phone10.png" data-src='' alt="手机区域">
+                            <h3>魅蓝E3</h3>
+                            <p>极速八核 全系6GB运存</p>
+                            <span>&yen;1799 起</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- ad2 -->
+            <div class="content-ad2">
+                <a href="#">
+                    <img src="images/index/content-ad2.jpg" alt="广告2" />
+                </a>
+            </div>
+            <!-- 数码配件 -->
+            <div id="sm-parts">
+                <div class="tit clearfix">
+                    <h2 class="left">数码配件</h2>
+                    <ul class='left'>
+                        <li>
+                            <a class='high' href="#">超值推荐</a>
+                        </li>
+                    </ul>
+                    <a href="#" class='right'>更多&gt;&gt;</a>
+                </div>
+                   <!-- con -->
+                <ul class="con">
+                    <li>
+                        <a href="#">
+                            <img class='not' src="images/index/smparts/sm-part1.jpg" alt="数码配件" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/index/smparts/sm-part2.png" alt="数码配件" />
+                            <h3>魅族 Flow Bass三单元耳机</h3>
+                            <p>延续经典 重复新生</p>
+                            <span>&yen;599</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/index/smparts/sm-part3.png" alt="数码配件" />
+                            <h3>魅族 Flow Bass三单元耳机</h3>
+                            <p>延续经典 重复新生</p>
+                            <span>&yen;599</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/index/smparts/sm-part4.png" alt="数码配件" />
+                            <h3>魅族 Flow Bass三单元耳机</h3>
+                            <p>延续经典 重复新生</p>
+                            <span>&yen;599</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/index/smparts/sm-part5.png" alt="数码配件" />
+                            <h3>魅族 Flow Bass三单元耳机</h3>
+                            <p>延续经典 重复新生</p>
+                            <span>&yen;599</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/index/smparts/sm-part6.png" alt="数码配件" />
+                            <h3>魅族 Flow Bass三单元耳机</h3>
+                            <p>延续经典 重复新生</p>
+                            <span>&yen;599</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/index/smparts/sm-part7.png" alt="数码配件" />
+                        <h3>魅族 Flow Bass三单元耳机</h3> 
+                        <p>延续经典 重复新生</p>
+                        <span>&yen;599</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/index/smparts/sm-part8.png" alt="数码配件" />
+                            <h3>魅族 Flow Bass三单元耳机</h3>
+                            <p>延续经典 重复新生</p>
+                            <span>&yen;599</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/index/smparts/sm-part9.png" alt="数码配件" />
+                            <h3>魅族 Flow Bass三单元耳机</h3>
+                            <p>延续经典 重复新生</p>
+                            <span>&yen;599</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/index/smparts/sm-part10.png" alt="数码配件" />
+                            <h3>魅族 Flow Bass三单元耳机</h3>
+                            <p>延续经典 重复新生</p>
+                            <span>&yen;599</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- 广告三 -->
+            <div class="content-ad3">
+                <a href="#">
+                    <img src="images/index/content-ad3.jpg" alt="广告3">
+                </a>
+            </div>
+            <!-- 手机周边 -->
+            <div id="phone-rim">
+                <div class="tit clearfix">
+                    <h2 class="left">手机周边</h2>
+                    <ul class="left" id='tagchange'>
+                        <li><a class='high' href="#">超值推荐</a></li>
+                        <li><a href="#">数据线/电源适配器</a></li>
+                        <li><a href="#">保护套/后盖/贴膜</a></li>
+                    </ul>
+                    <a href="#" class='right'>更多&gt;&gt;</a>
+                </div>
+                <!-- 内容部分 -->
+                <div class="con" id='tag-con'>
+                    <!-- 3个ul -->
+                    <!-- 超值推荐 -->
+                    <ul >
+                        <li>
+                            <a href="#">
+                                <img src="images/index/tjdeserve/tj-deserve1.png" alt="超值推荐">
+                                <h3>魅蓝 S6 轻薄保护壳</h3>
+                                <p>轻薄与美感基于一身</p>
+                                <span>&yen;50</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/index/tjdeserve/tj-deserve2.png" alt="超值推荐">
+                                <h3>魅蓝 S6 轻薄保护壳</h3>
+                                <p>轻薄与美感基于一身</p>
+                                <span>&yen;50</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/index/tjdeserve/tj-deserve3.png" alt="超值推荐">
+                                <h3>魅蓝 S6 轻薄保护壳</h3>
+                                <p>轻薄与美感基于一身</p>
+                                <span>&yen;50</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/index/tjdeserve/tj-deserve4.png" alt="超值推荐">
+                                <h3>魅蓝 S6 轻薄保护壳</h3>
+                                <p>轻薄与美感基于一身</p>
+                                <span>&yen;50</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/index/tjdeserve/tj-deserve5.png" alt="超值推荐">
+                                <h3>魅蓝 S6 轻薄保护壳</h3>
+                                <p>轻薄与美感基于一身</p>
+                                <span>&yen;50</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/index/tjdeserve/tj-deserve6.png" alt="超值推荐">
+                                <h3>魅蓝 S6 轻薄保护壳</h3>
+                                <p>轻薄与美感基于一身</p>
+                                <span>&yen;50</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/index/tjdeserve/tj-deserve7.png" alt="超值推荐">
+                                <h3>魅蓝 S6 轻薄保护壳</h3>
+                                <p>轻薄与美感基于一身</p>
+                                <span>&yen;50</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/index/tjdeserve/tj-deserve8.png" alt="超值推荐">
+                                <h3>魅蓝 S6 轻薄保护壳</h3>
+                                <p>轻薄与美感基于一身</p>
+                                <span>&yen;50</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/index/tjdeserve/tj-deserve9.png" alt="超值推荐">
+                                <h3>魅蓝 S6 轻薄保护壳</h3>
+                                <p>轻薄与美感基于一身</p>
+                                <span>&yen;50</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/index/tjdeserve/tj-deserve10.png" alt="超值推荐">
+                                <h3>魅蓝 S6 轻薄保护壳</h3>
+                                <p>轻薄与美感基于一身</p>
+                                <span>&yen;50</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- 电源适配器 -->
+                    <ul >
+                        <li>
+                            <a href="#">
+                                <img src="images/index/usbcode/use-code1.png" alt="数据线..." />
+                                <h3>魅族二合一金属数据线</h3>
+                                <p>二合一全兼容</p>
+                                <span>&yen;50</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/index/usbcode/use-code2.png" alt="数据线..." />
+                                <h3>魅族二合一金属数据线</h3>
+                                <p>二合一全兼容</p>
+                                <span>&yen;50</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/index/usbcode/use-code3.png" alt="数据线..." />
+                                <h3>魅族二合一金属数据线</h3>
+                                <p>二合一全兼容</p>
+                                <span>&yen;50</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/index/usbcode/use-code4.jpg" alt="数据线..." />
+                                <h3>魅族二合一金属数据线</h3>
+                                <p>二合一全兼容</p>
+                                <span>&yen;50</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/index/usbcode/use-code5.png" alt="数据线..." />
+                                <h3>魅族二合一金属数据线</h3>
+                                <p>二合一全兼容</p>
+                                <span>&yen;50</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/index/usbcode/use-code6.png" alt="数据线..." />
+                                <h3>魅族二合一金属数据线</h3>
+                                <p>二合一全兼容</p>
+                                <span>&yen;50</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/index/usbcode/use-code7.png" alt="数据线..." />
+                                <h3>魅族二合一金属数据线</h3>
+                                <p>二合一全兼容</p>
+                                <span>&yen;50</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/index/usbcode/use-code8.jpg" alt="数据线..." />
+                                <h3>魅族二合一金属数据线</h3>
+                                <p>二合一全兼容</p>
+                                <span>&yen;50</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/index/usbcode/use-code9.png" alt="数据线..." />
+                                <h3>魅族二合一金属数据线</h3>
+                                <p>二合一全兼容</p>
+                                <span>&yen;50</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/index/usbcode/use-code10.png" alt="数据线..." />
+                                <h3>魅族二合一金属数据线</h3>
+                                <p>二合一全兼容</p>
+                                <span>&yen;50</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- 保护套/后壳/贴膜 -->
+                    <ul>
+                            <li>
+                                <a href="#">
+                                    <img src="images/index/phshell/ph-shell1.jpg" alt="保护壳..." />
+                                    <h3>魅族二合一金属数据线</h3>
+                                    <p>二合一全兼容</p>
+                                    <span>&yen;50</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/index/phshell/ph-shell2.png" alt="保护壳..." />
+                                    <h3>魅族二合一金属数据线</h3>
+                                    <p>二合一全兼容</p>
+                                    <span>&yen;50</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/index/phshell/ph-shell3.png" alt="保护壳..." />
+                                    <h3>魅族二合一金属数据线</h3>
+                                    <p>二合一全兼容</p>
+                                    <span>&yen;50</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/index/phshell/ph-shell4.png" alt="保护壳..." />
+                                    <h3>魅族二合一金属数据线</h3>
+                                    <p>二合一全兼容</p>
+                                    <span>&yen;50</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/index/phshell/ph-shell5.png" alt="保护壳..." />
+                                    <h3>魅族二合一金属数据线</h3>
+                                    <p>二合一全兼容</p>
+                                    <span>&yen;50</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/index/phshell/ph-shell6.png" alt="保护壳..." />
+                                    <h3>魅族二合一金属数据线</h3>
+                                    <p>二合一全兼容</p>
+                                    <span>&yen;50</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/index/phshell/ph-shell7.png" alt="保护壳..." />
+                                    <h3>魅族二合一金属数据线</h3>
+                                    <p>二合一全兼容</p>
+                                    <span>&yen;50</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/index/phshell/ph-shell8.png" alt="保护壳..." />
+                                    <h3>魅族二合一金属数据线</h3>
+                                    <p>二合一全兼容</p>
+                                    <span>&yen;50</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/index/phshell/ph-shell9.png" alt="保护壳..." />
+                                    <h3>魅族二合一金属数据线</h3>
+                                    <p>二合一全兼容</p>
+                                    <span>&yen;50</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/index/phshell/ph-shell10.png" alt="保护壳..." />
+                                    <h3>魅族二合一金属数据线</h3>
+                                    <p>二合一全兼容</p>
+                                    <span>&yen;50</span>
+                                </a>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <div id="footer">
+            <div class="about-us clearfix">
+                <ul class='left'>
+                    <li><a href="#">顺丰包邮</a></li>
+                    <li><a href="#">100+ 城市次日送达</a></li>
+                    <li><a href="#">7天无理由退货</a></li>
+                    <li><a href="#">15Tina换货保障</a></li>
+                    <li><a href="#">1年免费保修</a></li>
+                    <li><a href="#">2300+ 线下体验店</a></li>
+                    <li><a href="#">远程支持服务</a></li>
+                    <li><a href="#">上门快修</a></li>
+                </ul>
+                <div class="right contact-us">
+                    <span>24消失全国服务热线</span>
+                    <p>400-788-3333</p>
+                    <a href="#">在线客服</a>
+                </div>
+            </div>
+            <!-- other-nav  -->
+            <div class="other-nav">
+                <ul class='clearfix'>
+                    <li><a href="#">了解魅族</a></li>
+                    <li><a href="#">加入我们</a></li>
+                    <li><a href="#">联系我们</a></li>
+                    <li><a href="#">Flyme</a></li>
+                    <li><a href="#">魅族社区</a></li>
+                    <li><a href="#">天猫旗舰店</a></li>
+                    <li><a href="#">问题反馈</a></li>
+                    <li><a href="#" style="border: none;">线上销售授权名单公示</a></li>
+                </ul>
+                <p>
+                    ©2017 Meizu Telecom Equipment Co., Ltd. All rights reserved. 
+                    粤ICP备13003602号-2 合字B2-20170010 营业执照 法律声明 粤公网安备 
+                    44049102496009 号
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/min/jquery.min.js"></script>    
+    <script src="./js/min/common.js"></script>
+    <script src="./js/min/index.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+/*css重置代码*/
+body,
+h1,h2,h3,h4,h5,h6,
+ul,ol,li,dl,dd,
+p,hr,pre,blockquote,
+form,input,fieldset,legend,button,textarea,select,th,td{margin:0;padding:0;}
+body,button,input,select,textarea{
+	font:14px/1.5 Arial,Verdana,Helvetica,sans-serif;
+	background:#FFF;
+}
+body {
+    text-align: center; /* ie低版本能让块元素也水平居中 */
+}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+em,i{font-style:normal;}
+ul{list-style:none;}
+a:link,a:visited{text-decoration:none;color:#333;}
+a:hover{text-decoration:none;color:#0bc6f5;}
+button,input,select,textarea{font-size:100%;}
+table{border-collapse: collapse;border-spacing:0;}
+img{border:0;vertical-align: top;}
+/* 浮动 */
+.left{float:left;}
+.right{float:right;}
+/* 清除浮动 */
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+	visibility: hidden;
+	overflow: hidden;
+	height:0;
+	font-size:0;
+}
+.clearfix{zoom:1;}
+
+.overflow { overflow: hidden; }
+.hide { display: none; }
+.block { display: block; }
+.in { display: inline; }
+.inline{display:inline-block;}
